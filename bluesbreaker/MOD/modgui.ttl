@@ -1,0 +1,29 @@
+@prefix modgui: <http://moddevices.com/ns/modgui#> .
+@prefix lv2:    <http://lv2plug.in/ns/lv2core#> .
+
+<urn:brummer:bluesbreaker>
+    modgui:gui [
+        modgui:resourcesDirectory <modgui> ;
+        modgui:iconTemplate <modgui/icon-bluesbreaker.html> ;
+        modgui:stylesheet <modgui/stylesheet-bluesbreaker.css> ;
+        modgui:screenshot <modgui/screenshot-bluesbreaker.png> ;
+        modgui:thumbnail <modgui/thumbnail-bluesbreaker.png> ;
+        modgui:brand "brummer" ;
+        modgui:label "BluesBreaker" ;
+        modgui:model "british" ;
+        modgui:panel "4-knobs" ;
+        modgui:color "metallic" ;
+        modgui:port [
+            lv2:index 0 ;
+            lv2:symbol "GAIN" ;
+            lv2:name "gain" ;
+        ] , [
+            lv2:index 1 ;
+            lv2:symbol "TONE" ;
+            lv2:name "tone" ;
+        ] , [
+            lv2:index 2 ;
+            lv2:symbol "VOLUME" ;
+            lv2:name "volume" ;
+        ] ;
+    ] .

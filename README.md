@@ -1,7 +1,7 @@
 # bluesbreaker.lv2
 Overdrive pedal simulation
 
-![bluesbreaker](https://github.com/brummer10/bluesbreaker/blob/main/bluesbreaker.png?raw=true)
+![bluesbreaker](https://github.com/brummer10/bluesbreaker.lv2/blob/main/bluesbreaker.png?raw=true)
 
 
 ## Features
